@@ -48,11 +48,14 @@ function App() {
         emails={emails}
         currentTab={currentTab}
         setCurrentTab={setCurrentTab}
-        setHideRead={setHideRead}/>
+        hideRead={hideRead}
+        setHideRead={setHideRead}
+      />
       <Main
         filteredEmails={filteredEmails}
         toggleRead={toggleRead}
-        toggleStar={toggleStar}/>
+        toggleStar={toggleStar}
+      />
     </div>
   )
 }
